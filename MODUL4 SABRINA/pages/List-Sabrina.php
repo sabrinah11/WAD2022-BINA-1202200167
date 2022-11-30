@@ -2,7 +2,7 @@
 require '../config/conn.php';
 session_start();
 
-$query = "SELECT * FROM showroomead_sabrina";
+$query = "SELECT * FROM showroom_leon";
 $result = mysqli_query($conn, $query);
 
 if (isset($_GET['message'])) {
@@ -19,7 +19,7 @@ if (isset($_GET['message'])) {
 
 if(isset($_SESSION["login"])) {
   $login_as = $_SESSION["email"];
-  $result_login = mysqli_query($connuser, "SELECT * FROM user_sabrina WHERE email = '$login_as'");
+  $result_login = mysqli_query($conn, "SELECT * FROM users WHERE email = '$login_as'");
   $data_login = mysqli_fetch_assoc($result_login);
 }
 ?>
