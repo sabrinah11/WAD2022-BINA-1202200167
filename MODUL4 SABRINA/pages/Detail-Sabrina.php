@@ -3,7 +3,7 @@ require '../config/conn.php';
 
 $id = $_GET['id'];
 
-$sql = "SELECT * FROM showroomead_sabrina WHERE id_mobil = $id";
+$sql = "SELECT * FROM showroom_sabrina_table WHERE id_mobil = $id";
 
 $result = mysqli_query($conn, $sql);
 ?>

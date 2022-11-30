@@ -81,13 +81,13 @@ if (isset($_POST["daftar"])) {
                             <div class="form-outline mb-4">
                                 <!-- Password input -->
                                 <div class="form-outline mb-3">
-                                    <label class="form-label" for="password2">konfirmasi Password</label>
+                                    <label class="form-label" for="password2">Konfirmasi Password</label>
                                     <span class="required" style="top: 0px; left: 41px;">*</span>
                                     <input type="password" id="password2" class="form-control form-control-lg" name="password2" placeholder="masukan ulang password" required />
                                 </div>
                                 <div class="text-center text-lg-start mt-4 pt-2">
                                     <button type="submit" name="daftar" class="btn btn-success btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;">Daftar</button>
-                                    <p class="small fw-bold mt-2 pt-1 mb-0">anda sudah punya akun? <a href="Login-Sabrina.php" class="link-danger">Login</a></p>
+                                    <p class="small fw-bold mt-2 pt-1 mb-0">Anda sudah punya akun? <a href="Login-Sabrina.php" class="link-danger">Login</a></p>
                                 </div>
                         </form>
                     </div>
