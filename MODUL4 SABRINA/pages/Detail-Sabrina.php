@@ -1,6 +1,6 @@
 <?php
 require '../config/conn.php';
-
+session_start();
 $id = $_GET['id'];
 
 $sql = "SELECT * FROM showroom_sabrina_table WHERE id_mobil = $id";

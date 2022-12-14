@@ -1,6 +1,7 @@
   <?php
   require './config/conn.php';
-
+  session_start();
+  
   $query = "SELECT * FROM showroom_sabrina_table";
   $result = mysqli_query($conn, $query);
 

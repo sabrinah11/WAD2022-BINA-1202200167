@@ -1,5 +1,6 @@
 <?php
 require "../config/conn.php";
+session_start();
 
 if (isset($_POST["daftar"])) {
     $nama = $_POST["nama"];
