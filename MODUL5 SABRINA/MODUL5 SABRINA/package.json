@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "private": true,
     "scripts": {
@@ -12,3 +13,19 @@
         "vite": "^3.0.0"
     }
 }
+=======
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.0",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vite": "^3.0.0"
+    }
+}
+>>>>>>> 0f0f2b61f7d4fcca83f1e60c571d8820c48ae9e1
